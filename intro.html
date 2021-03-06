@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <base href="/jeopardy-markup/">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +9,19 @@
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="/main.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="parent">
-        <div class="block">
-            <div class="nes-container is-rounded">
-                <div class="nes-field login-form">
-                    <label for="name_field">Your name</label>
-                    <input type="text" class="nes-input" />
-                    <button type="button" class="nes-btn is-success">Submit</button>
-                </div>
-            </div>
-        </div>
+    <div>
+        <p>Upload pack</p>
+        <input type="file"/>
+        <button>Upload</button>
+    </div>
+    <div>
+        <p>Or enter game ID</p>
+        <input type="text"/>
+        <button>OK</button>
     </div>
 </body>
 
