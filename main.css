@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;    
+}
+
 body {
     font-family: 'Press Start 2P', cursive;
 }
@@ -13,6 +17,67 @@ body {
     overflow: auto;
 }
 
-.login-form > * {
+.login-form>* {
     margin-bottom: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.block {
+    margin: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+.scrollable {
+    overflow-y: auto;
+    min-height: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.titlebar {
+    height: 85px;
 }
